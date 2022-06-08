@@ -1,8 +1,5 @@
 Feature: This feature will make sure that the shop page is navigable and usable.
 
-# Background: Agree cookie
-#   Given I agree cookies
-
 Scenario: User navigates to shop page
   Given I am on the deals page
   When I agree cookies
