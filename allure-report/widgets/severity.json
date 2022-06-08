@@ -1,0 +1,21 @@
+[ {
+  "uid" : "3469f2f32b2266d8",
+  "name" : "User navigates to shop page",
+  "time" : {
+    "start" : 1654680770617,
+    "stop" : 1654680773739,
+    "duration" : 3122
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9bc5043eab79bbe8",
+  "name" : "User sees tiles on the shop page",
+  "time" : {
+    "start" : 1654680773739,
+    "stop" : 1654680796092,
+    "duration" : 22353
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]

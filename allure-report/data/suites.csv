@@ -1,0 +1,3 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"broken","Wed Jun 08 10:32:53 BST 2022","Wed Jun 08 10:33:16 BST 2022","22353","","This feature will make sure that the shop page is navigable and usable.","","This feature will make sure that the shop page is navigable and usable.","User sees tiles on the shop page","User sees tiles on the shop page",""
+"passed","Wed Jun 08 10:32:50 BST 2022","Wed Jun 08 10:32:53 BST 2022","3122","","This feature will make sure that the shop page is navigable and usable.","","This feature will make sure that the shop page is navigable and usable.","User navigates to shop page","User navigates to shop page",""

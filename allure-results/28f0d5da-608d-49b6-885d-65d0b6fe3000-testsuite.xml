@@ -1,0 +1,95 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1654681278522' stop='1654681298756'>
+    <name>This feature will make sure that the shop page is navigable and usable.</name>
+    <title>This feature will make sure that the shop page is navigable and usable.</title>
+    <test-cases>
+        <test-case start='1654681278538' status='broken' stop='1654681287850'>
+            <name>User navigates to shop page</name>
+            <title>User navigates to shop page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-102.0.5005.61'/>
+            </parameters>
+            <steps>
+                <step start='1654681278540' status='passed' stop='1654681281503'>
+                    <name>Given I am on the deals page</name>
+                    <title>Given I am on the deals page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1654681281503' status='broken' stop='1654681287850'>
+                    <name>When I agree cookies</name>
+                    <title>When I agree cookies</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='9f7c83f2-a887-4d38-a17f-f4788da089a8-attachment.png' type='image/png' size='309420'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1654681287850' status='canceled' stop='1654681287850'>
+                    <name>Then I should see heading "Sky Deals"</name>
+                    <title>Then I should see heading "Sky Deals"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Error: No window found with title, url or name matching "google.com"</message>
+                <stack-trace>Error: No window found with title, url or name matching "google.com"
+                    at processTicksAndRejections (node:internal/process/task_queues:94:5)
+                    at HomePage.acceptCookie (/Users/dilipkumarrajendran/Documents/cog/features/pageobjects/home.page.js:34:5)
+                    at World.&lt;anonymous> (/Users/dilipkumarrajendran/Documents/cog/features/step-definitions/steps.js:19:3)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1654681287851' status='broken' stop='1654681298755'>
+            <name>User sees tiles on the shop page</name>
+            <title>User sees tiles on the shop page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-102.0.5005.61'/>
+            </parameters>
+            <steps>
+                <step start='1654681287852' status='passed' stop='1654681290458'>
+                    <name>Given I am on the home page</name>
+                    <title>Given I am on the home page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1654681290458' status='broken' stop='1654681298755'>
+                    <name>When I try to sign in with invalid credentials</name>
+                    <title>When I try to sign in with invalid credentials</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='91ac8331-169b-469e-ac15-8fdc0b923f79-attachment.png' type='image/png' size='864707'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1654681298755' status='canceled' stop='1654681298755'>
+                    <name>Then I should see a box with the text "Create your My Sky password"</name>
+                    <title>Then I should see a box with the text "Create your My Sky password"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Error: Malformed type for "id" parameter of command switchToFrame</message>
+                <stack-trace>Error: Malformed type for "id" parameter of command switchToFrame
+                Expected: (number|object|null)
+                Actual: string
+                
+                For more info see https://w3c.github.io/webdriver/#dfn-switch-to-frame
+                
+                    at LoginPage.login (/Users/dilipkumarrajendran/Documents/cog/features/pageobjects/login.page.js:46:5)
+                    at World.&lt;anonymous> (/Users/dilipkumarrajendran/Documents/cog/features/step-definitions/steps.js:23:3)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

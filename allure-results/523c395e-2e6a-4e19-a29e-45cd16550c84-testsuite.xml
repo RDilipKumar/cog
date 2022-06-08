@@ -1,0 +1,95 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1654682154359' stop='1654682163760'>
+    <name>This feature will make sure that the shop page is navigable and usable.</name>
+    <title>This feature will make sure that the shop page is navigable and usable.</title>
+    <test-cases>
+        <test-case start='1654682154378' status='broken' stop='1654682157261'>
+            <name>User navigates to shop page</name>
+            <title>User navigates to shop page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-102.0.5005.61'/>
+            </parameters>
+            <steps>
+                <step start='1654682154381' status='passed' stop='1654682156899'>
+                    <name>Given I am on the deals page</name>
+                    <title>Given I am on the deals page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1654682156899' status='broken' stop='1654682157261'>
+                    <name>When I agree cookies</name>
+                    <title>When I agree cookies</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='79d3c9d3-a3c4-4792-9e5f-2c052553bad3-attachment.png' type='image/png' size='327819'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1654682157261' status='canceled' stop='1654682157261'>
+                    <name>Then I should see heading "Sky Deals"</name>
+                    <title>Then I should see heading "Sky Deals"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>TypeError: browser.waitForExist is not a function</message>
+                <stack-trace>TypeError: browser.waitForExist is not a function
+                    at HomePage.acceptCookie (/Users/dilipkumarrajendran/Documents/cog/features/pageobjects/home.page.js:33:19)
+                    at World.&lt;anonymous> (/Users/dilipkumarrajendran/Documents/cog/features/step-definitions/steps.js:19:18)
+                    at processTicksAndRejections (node:internal/process/task_queues:94:5)
+                    at wrapPromiseWithTimeout (/Users/dilipkumarrajendran/Documents/cog/node_modules/@cucumber/cucumber/src/time.ts:56:10)
+                    at Object.run (/Users/dilipkumarrajendran/Documents/cog/node_modules/@cucumber/cucumber/src/user_code_runner.ts:86:16)
+                    at Object.run (/Users/dilipkumarrajendran/Documents/cog/node_modules/@cucumber/cucumber/src/runtime/step_runner.ts:50:20)
+                    at TestCaseRunner.invokeStep (/Users/dilipkumarrajendran/Documents/cog/node_modules/@cucumber/cucumber/src/runtime/test_case_runner.ts:130:12)
+                    at TestCaseRunner.runStep (/Users/dilipkumarrajendran/Documents/cog/node_modules/@cucumber/cucumber/src/runtime/test_case_runner.ts:307:20)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1654682157263' status='broken' stop='1654682163758'>
+            <name>User sees tiles on the shop page</name>
+            <title>User sees tiles on the shop page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-102.0.5005.61'/>
+            </parameters>
+            <steps>
+                <step start='1654682157263' status='passed' stop='1654682159019'>
+                    <name>Given I am on the home page</name>
+                    <title>Given I am on the home page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1654682159019' status='broken' stop='1654682163758'>
+                    <name>When I try to sign in with invalid credentials</name>
+                    <title>When I try to sign in with invalid credentials</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='3148e73b-5a00-48b4-bd7b-cb04f4977a67-attachment.png' type='image/png' size='397207'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1654682163759' status='canceled' stop='1654682163759'>
+                    <name>Then I should see a box with the text "Create your My Sky password"</name>
+                    <title>Then I should see a box with the text "Create your My Sky password"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>element click intercepted: element click intercepted: Element &lt;a class="tab-focus sign-in-link" data-test-id="sign-in-link" data-tracking-label="masthead_signin" href="https://www.sky.com/signin?successUrl=https%3A%2F%2Fwww.sky.com%2F&amp;amp;cancelUrl=https%3A%2F%2Fwww.sky.com%2F">...&lt;/a> is not clickable at point (1146, 25). Other element would receive the click: &lt;iframe src="https://cdn.privacy-mgmt.com/index.html?message_id=474555&amp;amp;consentUUID=34b51b56-0151-45ba-8c0e-27ad7ce5de99&amp;amp;requestUUID=654a7040-3805-46e2-a53c-53b089585a16&amp;amp;preload_message=true&amp;amp;consentLanguage=en" id="sp_message_iframe_474555" title="SP Consent Message">&lt;/iframe></message>
+                <stack-trace>element click intercepted: element click intercepted: Element &lt;a class="tab-focus sign-in-link" data-test-id="sign-in-link" data-tracking-label="masthead_signin" href="https://www.sky.com/signin?successUrl=https%3A%2F%2Fwww.sky.com%2F&amp;amp;cancelUrl=https%3A%2F%2Fwww.sky.com%2F">...&lt;/a> is not clickable at point (1146, 25). Other element would receive the click: &lt;iframe src="https://cdn.privacy-mgmt.com/index.html?message_id=474555&amp;amp;consentUUID=34b51b56-0151-45ba-8c0e-27ad7ce5de99&amp;amp;requestUUID=654a7040-3805-46e2-a53c-53b089585a16&amp;amp;preload_message=true&amp;amp;consentLanguage=en" id="sp_message_iframe_474555" title="SP Consent Message">&lt;/iframe>
+                  (Session info: chrome=102.0.5005.61)
+                    at processTicksAndRejections (node:internal/process/task_queues:94:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

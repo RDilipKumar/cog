@@ -1,0 +1,73 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1654685423619' stop='1654685428314'>
+    <name>This feature will make sure that the shop page is navigable and usable.</name>
+    <title>This feature will make sure that the shop page is navigable and usable.</title>
+    <test-cases>
+        <test-case start='1654685423642' status='passed' stop='1654685427019'>
+            <name>User navigates to shop page</name>
+            <title>User navigates to shop page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-102.0.5005.61'/>
+            </parameters>
+            <steps>
+                <step start='1654685423647' status='passed' stop='1654685426732'>
+                    <name>Given I am on the deals page</name>
+                    <title>Given I am on the deals page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1654685426732' status='passed' stop='1654685426965'>
+                    <name>When I agree cookies</name>
+                    <title>When I agree cookies</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1654685426965' status='passed' stop='1654685427018'>
+                    <name>Then I should see heading "Sky Deals"</name>
+                    <title>Then I should see heading "Sky Deals"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1654685427019' status='passed' stop='1654685428313'>
+            <name>User sees a list of deals on the deals page</name>
+            <title>User sees a list of deals on the deals page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-102.0.5005.61'/>
+            </parameters>
+            <steps>
+                <step start='1654685427019' status='passed' stop='1654685428178'>
+                    <name>Given I am on the deals page</name>
+                    <title>Given I am on the deals page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1654685428178' status='passed' stop='1654685428202'>
+                    <name>When I agree cookies</name>
+                    <title>When I agree cookies</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1654685428202' status='passed' stop='1654685428313'>
+                    <name>Then I see a list of deals with a price to it "£100,£100,£100"</name>
+                    <title>Then I see a list of deals with a price to it "£100,£100,£100"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,102 @@
+{
+  "uid" : "3469f2f32b2266d8",
+  "name" : "User navigates to shop page",
+  "fullName" : "This feature will make sure that the shop page is navigable and usable..User navigates to shop page",
+  "historyId" : "8fb976e548be0004f7cbf544fc31e43b",
+  "time" : {
+    "start" : 1654680770617,
+    "stop" : 1654680773739,
+    "duration" : 3122
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given I am on the deals page",
+      "time" : {
+        "start" : 1654680770620,
+        "stop" : 1654680773658,
+        "duration" : 3038
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see heading \"Sky Deals\"",
+      "time" : {
+        "start" : 1654680773658,
+        "stop" : 1654680773738,
+        "duration" : 80
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "This feature will make sure that the shop page is navigable and usable."
+  }, {
+    "name" : "testClass",
+    "value" : "This feature will make sure that the shop page is navigable and usable."
+  }, {
+    "name" : "testMethod",
+    "value" : "User navigates to shop page"
+  }, {
+    "name" : "package",
+    "value" : "This feature will make sure that the shop page is navigable and usable."
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-102.0.5005.61"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3469f2f32b2266d8.json",
+  "parameterValues" : [ "chrome-102.0.5005.61" ]
+}

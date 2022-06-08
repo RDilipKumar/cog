@@ -1,0 +1,95 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1654683462172' stop='1654683479773'>
+    <name>This feature will make sure that the shop page is navigable and usable.</name>
+    <title>This feature will make sure that the shop page is navigable and usable.</title>
+    <test-cases>
+        <test-case start='1654683462187' status='broken' stop='1654683471243'>
+            <name>User navigates to shop page</name>
+            <title>User navigates to shop page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-102.0.5005.61'/>
+            </parameters>
+            <steps>
+                <step start='1654683462191' status='passed' stop='1654683464879'>
+                    <name>Given I am on the deals page</name>
+                    <title>Given I am on the deals page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1654683464879' status='broken' stop='1654683471242'>
+                    <name>When I agree cookies</name>
+                    <title>When I agree cookies</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='b78913f9-1347-4314-b7bd-9f74345b6a41-attachment.png' type='image/png' size='327819'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1654683471243' status='canceled' stop='1654683471243'>
+                    <name>Then I should see heading "Sky Deals"</name>
+                    <title>Then I should see heading "Sky Deals"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>TypeError: Cannot convert object to primitive value</message>
+                <stack-trace>TypeError: Cannot convert object to primitive value
+                    at HomePage.acceptCookie (/Users/dilipkumarrajendran/Documents/cog/features/pageobjects/home.page.js:35:17)
+                    at World.&lt;anonymous> (/Users/dilipkumarrajendran/Documents/cog/features/step-definitions/steps.js:19:3)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1654683471244' status='broken' stop='1654683479770'>
+            <name>User sees tiles on the shop page</name>
+            <title>User sees tiles on the shop page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-102.0.5005.61'/>
+            </parameters>
+            <steps>
+                <step start='1654683471244' status='passed' stop='1654683473254'>
+                    <name>Given I am on the home page</name>
+                    <title>Given I am on the home page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1654683473254' status='broken' stop='1654683479770'>
+                    <name>When I agree cookies</name>
+                    <title>When I agree cookies</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='eaa057e1-b690-43f9-9c5d-fd45d6c403aa-attachment.png' type='image/png' size='726630'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1654683479770' status='canceled' stop='1654683479770'>
+                    <name>When I try to sign in with invalid credentials</name>
+                    <title>When I try to sign in with invalid credentials</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1654683479770' status='canceled' stop='1654683479770'>
+                    <name>Then I should see a box with the text "Create your My Sky password"</name>
+                    <title>Then I should see a box with the text "Create your My Sky password"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>TypeError: Cannot convert object to primitive value</message>
+                <stack-trace>TypeError: Cannot convert object to primitive value
+                    at HomePage.acceptCookie (/Users/dilipkumarrajendran/Documents/cog/features/pageobjects/home.page.js:35:17)
+                    at World.&lt;anonymous> (/Users/dilipkumarrajendran/Documents/cog/features/step-definitions/steps.js:19:3)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

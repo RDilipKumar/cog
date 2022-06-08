@@ -1,0 +1,132 @@
+{
+  "uid" : "9bc5043eab79bbe8",
+  "name" : "User sees tiles on the shop page",
+  "fullName" : "This feature will make sure that the shop page is navigable and usable..User sees tiles on the shop page",
+  "historyId" : "a3d2393671eecb65eb3b8ee56d94b14c",
+  "time" : {
+    "start" : 1654680773739,
+    "stop" : 1654680796092,
+    "duration" : 22353
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Error: Can't call getText on element with selector \"//h1[@data-testid=\"AUTHN__TITLE\"]\" because element wasn't found",
+  "statusTrace" : "Error: Can't call getText on element with selector \"//h1[@data-testid=\"AUTHN__TITLE\"]\" because element wasn't found\n                    at LoginPage.login (/Users/dilipkumarrajendran/Documents/cog/features/pageobjects/login.page.js:46:5)\n                    at World.<anonymous> (/Users/dilipkumarrajendran/Documents/cog/features/step-definitions/steps.js:23:3)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Error: Can't call getText on element with selector \"//h1[@data-testid=\"AUTHN__TITLE\"]\" because element wasn't found",
+    "statusTrace" : "Error: Can't call getText on element with selector \"//h1[@data-testid=\"AUTHN__TITLE\"]\" because element wasn't found\n                    at LoginPage.login (/Users/dilipkumarrajendran/Documents/cog/features/pageobjects/login.page.js:46:5)\n                    at World.<anonymous> (/Users/dilipkumarrajendran/Documents/cog/features/step-definitions/steps.js:23:3)",
+    "steps" : [ {
+      "name" : "Given I am on the home page",
+      "time" : {
+        "start" : 1654680773739,
+        "stop" : 1654680775740,
+        "duration" : 2001
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I try to sign in with invalid credentials",
+      "time" : {
+        "start" : 1654680775740,
+        "stop" : 1654680796092,
+        "duration" : 20352
+      },
+      "status" : "broken",
+      "statusMessage" : "Error: Can't call getText on element with selector \"//h1[@data-testid=\"AUTHN__TITLE\"]\" because element wasn't found\n                    at LoginPage.login (/Users/dilipkumarrajendran/Documents/cog/features/pageobjects/login.page.js:46:5)\n                    at World.<anonymous> (/Users/dilipkumarrajendran/Documents/cog/features/step-definitions/steps.js:23:3)",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b5970b536375fea",
+        "name" : "Screenshot",
+        "source" : "b5970b536375fea.png",
+        "type" : "image/png",
+        "size" : 865304
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    }, {
+      "name" : "Then I should see a box with the text \"Create your My Sky password\"",
+      "time" : {
+        "start" : 1654680796092,
+        "stop" : 1654680796092,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "This feature will make sure that the shop page is navigable and usable."
+  }, {
+    "name" : "testClass",
+    "value" : "This feature will make sure that the shop page is navigable and usable."
+  }, {
+    "name" : "testMethod",
+    "value" : "User sees tiles on the shop page"
+  }, {
+    "name" : "package",
+    "value" : "This feature will make sure that the shop page is navigable and usable."
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-102.0.5005.61"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "9bc5043eab79bbe8.json",
+  "parameterValues" : [ "chrome-102.0.5005.61" ]
+}

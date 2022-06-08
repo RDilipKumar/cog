@@ -1,0 +1,84 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1654685255385' stop='1654685260430'>
+    <name>This feature will make sure that the shop page is navigable and usable.</name>
+    <title>This feature will make sure that the shop page is navigable and usable.</title>
+    <test-cases>
+        <test-case start='1654685255397' status='passed' stop='1654685258326'>
+            <name>User navigates to shop page</name>
+            <title>User navigates to shop page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-102.0.5005.61'/>
+            </parameters>
+            <steps>
+                <step start='1654685255399' status='passed' stop='1654685258016'>
+                    <name>Given I am on the deals page</name>
+                    <title>Given I am on the deals page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1654685258016' status='passed' stop='1654685258215'>
+                    <name>When I agree cookies</name>
+                    <title>When I agree cookies</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1654685258215' status='passed' stop='1654685258325'>
+                    <name>Then I should see heading "Sky Deals"</name>
+                    <title>Then I should see heading "Sky Deals"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1654685258327' status='broken' stop='1654685260429'>
+            <name>User sees a list of deals on the deals page</name>
+            <title>User sees a list of deals on the deals page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-102.0.5005.61'/>
+            </parameters>
+            <steps>
+                <step start='1654685258327' status='passed' stop='1654685260035'>
+                    <name>Given I am on the deals page</name>
+                    <title>Given I am on the deals page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1654685260035' status='passed' stop='1654685260081'>
+                    <name>When I agree cookies</name>
+                    <title>When I agree cookies</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1654685260081' status='broken' stop='1654685260429'>
+                    <name>Then I see a list of deals with a price to it "£100,£100,£100"</name>
+                    <title>Then I see a list of deals with a price to it "£100,£100,£100"</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='b306b35d-8cc6-40ed-a32d-816d232d9d43-attachment.png' type='image/png' size='309420'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>invalid selector: invalid selector: An invalid or illegal selector was specified</message>
+                <stack-trace>invalid selector: invalid selector: An invalid or illegal selector was specified
+                  (Session info: chrome=102.0.5005.61)
+                    at processTicksAndRejections (node:internal/process/task_queues:94:5)
+                    at Object.executeCommandBe (/Users/dilipkumarrajendran/Documents/cog/node_modules/expect-webdriverio/lib/utils.js:47:16)
+                    at /Users/dilipkumarrajendran/Documents/cog/node_modules/expect-webdriverio/lib/matchers/element/toBeExisting.js:10:24
+                    at World.&lt;anonymous> (/Users/dilipkumarrajendran/Documents/cog/features/step-definitions/steps.js:33:3)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

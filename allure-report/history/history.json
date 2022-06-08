@@ -1,0 +1,41 @@
+{
+  "8fb976e548be0004f7cbf544fc31e43b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3469f2f32b2266d8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654680770617,
+        "stop" : 1654680773739,
+        "duration" : 3122
+      }
+    } ]
+  },
+  "a3d2393671eecb65eb3b8ee56d94b14c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9bc5043eab79bbe8",
+      "status" : "broken",
+      "statusDetails" : "Error: Can't call getText on element with selector \"//h1[@data-testid=\"AUTHN__TITLE\"]\" because element wasn't found",
+      "time" : {
+        "start" : 1654680773739,
+        "stop" : 1654680796092,
+        "duration" : 22353
+      }
+    } ]
+  }
+}

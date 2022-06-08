@@ -1,0 +1,96 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1654684270564' stop='1654684295243'>
+    <name>This feature will make sure that the shop page is navigable and usable.</name>
+    <title>This feature will make sure that the shop page is navigable and usable.</title>
+    <test-cases>
+        <test-case start='1654684270579' status='passed' stop='1654684273082'>
+            <name>User navigates to shop page</name>
+            <title>User navigates to shop page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-102.0.5005.61'/>
+            </parameters>
+            <steps>
+                <step start='1654684270581' status='passed' stop='1654684272879'>
+                    <name>Given I am on the deals page</name>
+                    <title>Given I am on the deals page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1654684272879' status='passed' stop='1654684273026'>
+                    <name>When I agree cookies</name>
+                    <title>When I agree cookies</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1654684273026' status='passed' stop='1654684273080'>
+                    <name>Then I should see heading "Sky Deals"</name>
+                    <title>Then I should see heading "Sky Deals"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1654684273082' status='failed' stop='1654684295241'>
+            <name>User sees tiles on the shop page</name>
+            <title>User sees tiles on the shop page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-102.0.5005.61'/>
+            </parameters>
+            <steps>
+                <step start='1654684273082' status='passed' stop='1654684275533'>
+                    <name>Given I am on the home page</name>
+                    <title>Given I am on the home page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1654684275533' status='passed' stop='1654684275558'>
+                    <name>When I agree cookies</name>
+                    <title>When I agree cookies</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1654684275558' status='passed' stop='1654684284500'>
+                    <name>When I try to sign in with invalid credentials</name>
+                    <title>When I try to sign in with invalid credentials</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1654684284500' status='failed' stop='1654684295241'>
+                    <name>Then I should see a box with the text "Create your My Sky password"</name>
+                    <title>Then I should see a box with the text "Create your My Sky password"</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='d7abe89f-352d-4b6e-93de-81f9371d5a33-attachment.png' type='image/png' size='868697'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Error: Expect $(`div[class="subtitle center"]`) to be existing</message>
+                <stack-trace>Error: Expect $(`div[class="subtitle center"]`) to be existing
+                
+                Expected: "existing"
+                Received: "not existing"
+                    at World.&lt;anonymous> (/Users/dilipkumarrajendran/Documents/cog/features/step-definitions/steps.js:27:45)
+                    at processTicksAndRejections (node:internal/process/task_queues:94:5)
+                    at wrapPromiseWithTimeout (/Users/dilipkumarrajendran/Documents/cog/node_modules/@cucumber/cucumber/src/time.ts:56:10)
+                    at Object.run (/Users/dilipkumarrajendran/Documents/cog/node_modules/@cucumber/cucumber/src/user_code_runner.ts:86:16)
+                    at Object.run (/Users/dilipkumarrajendran/Documents/cog/node_modules/@cucumber/cucumber/src/runtime/step_runner.ts:50:20)
+                    at TestCaseRunner.invokeStep (/Users/dilipkumarrajendran/Documents/cog/node_modules/@cucumber/cucumber/src/runtime/test_case_runner.ts:130:12)
+                    at TestCaseRunner.runStep (/Users/dilipkumarrajendran/Documents/cog/node_modules/@cucumber/cucumber/src/runtime/test_case_runner.ts:307:20)
+                    at /Users/dilipkumarrajendran/Documents/cog/node_modules/@cucumber/cucumber/src/runtime/test_case_runner.ts:210:36</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,89 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1654683857849' stop='1654683875951'>
+    <name>This feature will make sure that the shop page is navigable and usable.</name>
+    <title>This feature will make sure that the shop page is navigable and usable.</title>
+    <test-cases>
+        <test-case start='1654683857863' status='passed' stop='1654683866870'>
+            <name>User navigates to shop page</name>
+            <title>User navigates to shop page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-102.0.5005.61'/>
+            </parameters>
+            <steps>
+                <step start='1654683857866' status='passed' stop='1654683860360'>
+                    <name>Given I am on the deals page</name>
+                    <title>Given I am on the deals page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1654683860360' status='passed' stop='1654683866716'>
+                    <name>When I agree cookies</name>
+                    <title>When I agree cookies</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1654683866716' status='passed' stop='1654683866869'>
+                    <name>Then I should see heading "Sky Deals"</name>
+                    <title>Then I should see heading "Sky Deals"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1654683866870' status='broken' stop='1654683875949'>
+            <name>User sees tiles on the shop page</name>
+            <title>User sees tiles on the shop page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-102.0.5005.61'/>
+            </parameters>
+            <steps>
+                <step start='1654683866871' status='passed' stop='1654683869025'>
+                    <name>Given I am on the home page</name>
+                    <title>Given I am on the home page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1654683869025' status='broken' stop='1654683875949'>
+                    <name>When I agree cookies</name>
+                    <title>When I agree cookies</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='e9ecbd34-6e6f-4f9a-8246-df1f5c7f1308-attachment.png' type='image/png' size='1225175'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1654683875949' status='canceled' stop='1654683875949'>
+                    <name>When I try to sign in with invalid credentials</name>
+                    <title>When I try to sign in with invalid credentials</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1654683875949' status='canceled' stop='1654683875950'>
+                    <name>Then I should see a box with the text "Create your My Sky password"</name>
+                    <title>Then I should see a box with the text "Create your My Sky password"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>invalid argument: invalid argument: missing 'ELEMENT'</message>
+                <stack-trace>invalid argument: invalid argument: missing 'ELEMENT'
+                  (Session info: chrome=102.0.5005.61)
+                    at processTicksAndRejections (node:internal/process/task_queues:94:5)
+                    at HomePage.acceptCookie (/Users/dilipkumarrajendran/Documents/cog/features/pageobjects/home.page.js:38:5)
+                    at World.&lt;anonymous> (/Users/dilipkumarrajendran/Documents/cog/features/step-definitions/steps.js:19:3)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

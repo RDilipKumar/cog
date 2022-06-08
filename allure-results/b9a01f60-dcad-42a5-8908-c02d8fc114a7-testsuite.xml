@@ -1,0 +1,84 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1654685353303' stop='1654685367680'>
+    <name>This feature will make sure that the shop page is navigable and usable.</name>
+    <title>This feature will make sure that the shop page is navigable and usable.</title>
+    <test-cases>
+        <test-case start='1654685353319' status='passed' stop='1654685355918'>
+            <name>User navigates to shop page</name>
+            <title>User navigates to shop page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-102.0.5005.61'/>
+            </parameters>
+            <steps>
+                <step start='1654685353321' status='passed' stop='1654685355623'>
+                    <name>Given I am on the deals page</name>
+                    <title>Given I am on the deals page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1654685355623' status='passed' stop='1654685355809'>
+                    <name>When I agree cookies</name>
+                    <title>When I agree cookies</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1654685355809' status='passed' stop='1654685355917'>
+                    <name>Then I should see heading "Sky Deals"</name>
+                    <title>Then I should see heading "Sky Deals"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1654685355918' status='failed' stop='1654685367679'>
+            <name>User sees a list of deals on the deals page</name>
+            <title>User sees a list of deals on the deals page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-102.0.5005.61'/>
+            </parameters>
+            <steps>
+                <step start='1654685355918' status='passed' stop='1654685357267'>
+                    <name>Given I am on the deals page</name>
+                    <title>Given I am on the deals page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1654685357267' status='passed' stop='1654685357300'>
+                    <name>When I agree cookies</name>
+                    <title>When I agree cookies</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1654685357300' status='failed' stop='1654685367678'>
+                    <name>Then I see a list of deals with a price to it "£100,£100,£100"</name>
+                    <title>Then I see a list of deals with a price to it "£100,£100,£100"</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='923c9f26-4726-4670-b360-7fdadfb6119b-attachment.png' type='image/png' size='309420'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Error: Expect $(`//div[contains(@id,'highlight.offer')]`) to have text containing</message>
+                <stack-trace>Error: Expect $(`//div[contains(@id,'highlight.offer')]`) to have text containing
+                
+                Expected: "\"£100"
+                Received: "£100 MASTERCARD® REWARD"
+                    at World.&lt;anonymous> (/Users/dilipkumarrajendran/Documents/cog/features/step-definitions/steps.js:34:49)
+                    at processTicksAndRejections (node:internal/process/task_queues:94:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

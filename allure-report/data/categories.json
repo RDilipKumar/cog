@@ -1,0 +1,30 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Error: Can't call getText on element with selector \"//h1[@data-testid=\"AUTHN__TITLE\"]\" because element wasn't found",
+      "children" : [ {
+        "name" : "User sees tiles on the shop page",
+        "uid" : "9bc5043eab79bbe8",
+        "parentUid" : "d0de5e3e23a457609ee1a8ebd3cac3e1",
+        "status" : "broken",
+        "time" : {
+          "start" : 1654680773739,
+          "stop" : 1654680796092,
+          "duration" : 22353
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-102.0.5005.61" ]
+      } ],
+      "uid" : "d0de5e3e23a457609ee1a8ebd3cac3e1"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}
